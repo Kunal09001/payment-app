@@ -7,6 +7,9 @@ interface transactionsInterface {
 }
 
 
+
+
+
 export default function P2PTransactions({transactions}: {transactions : transactionsInterface[]}) : JSX.Element {
 
     console.log(transactions)
