@@ -4,6 +4,8 @@ import  CredentialsProvider  from "next-auth/providers/credentials"
 import bcrypt from 'bcrypt'
 import  { PrismaClient } from '@repo/db/client'
 
+
+
 export const authOptions = {
     providers : [
         CredentialsProvider({
